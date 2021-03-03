@@ -1,6 +1,6 @@
 ---
 title: "Assigment - Data Driven Decision Making"
-author: name author here
+author: Duncan Barker
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
   html_notebook:
@@ -8,18 +8,11 @@ output:
     toc_depth: 2
 ---
 
-Search Youtube for a suitable business case example on data driven decision making and copy the embed code below.
-
-<---- Watch this video if you don't know how to embed video's ---->
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9YffrCViTVk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<---- Replace this video with your business case example ---->
-
+<iframe width="560" height="315" src="http://www.youtube.com/embed/9bZkp7q19f0?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ## Why was data driven decision making (3DM) useful in this business case?
 
-Write your analysis here. Use the information from the course literature as a starting point for your argumentation. Find other reliable sources that support your analysis. Apply proper citations. 
+#Write your analysis here. Use the information from the course literature as a starting point for your argumentation. Find other reliable sources that support your analysis. Apply proper citations. 
 
 ## How did the organization apply 3DM?
 
