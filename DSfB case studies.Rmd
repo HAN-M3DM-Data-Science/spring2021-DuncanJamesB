@@ -1,0 +1,129 @@
+---
+title: "DSfB case studies"
+author: "Duncan Barker"
+date: "24/2/2021"
+output:
+  rmdformats::downcute
+---
+<b> This markdown contains the assignments for the "Data Science for Business" module. The program has been divided into three blocks, each covering two weeks. During each block I have worked individually on the following case study topics:</b>
+<ol>
+<li> Data Driven Decision Making </li>
+<li> Data Problems vs Data Solutions </li>
+<li> Data Driven Business </li>
+</ol>
+
+# Data Driven Decision Making
+<b> Case Study: Ubernomics </b>
+<iframe width="800" height="350" src="https://www.youtube.com/embed/63wt3TgGGxI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-external="1"></iframe>
+
+## Why was data driven decision making (3DM) useful in this business case?
+In this business case, Uber actively uses the enormous amounts of available data to: improve the company's pricing algorithm, identify the value of flexibility to the workforce, solve imbalances in supply and demand and much more. Ultimately, the company is trying to find the most efficient way to run the business and gain other relevant insights along the way. 3DM provides Uber with insights that allow the company to try out small changes to the 'surge pricing' algorithm and evaluate the results.
+
+>"Real innovation is achieved through lots and lots of incremental innovation."
+: Susan Athey - Stanford Graduate School of Business
+
+Uber executes many controlled tests to stay ahead of the competition and deliver innovation.
+
+## How did the organization apply 3DM?
+Uber applies 3DM in a number of different ways. Firstly, the company works on Type 1 data-driven decisions (Provost & Fawcett, 2013) by employing a number of economists that explore the available data with the aim of developing new insights. The outcomes of these explorations are then translated into follow-up steps. For example, researching the degree to which Uber contributes to congestion within San Francisco.
+
+Secondly, Uber works on Type 2 data-driven decisions (Provost & Fawcett, 2013) through data analyses with the aim of finding solutions to drive efficiency across the board. For example, trying to explain the wage-gap between men and women. Finding variables that explain the phenomenon and trying to put measures in to place to negate the effect of gender on wages. 
+
+Specifically, Uber altered its algorithm to decrease the weight of the mileage variable and increase the weight of the time spent driving variable. This is because the wage-gap between men and women could partially be explained by the variation of speed in the driving styles of men and women. Men on average drive faster, and women on average drive slower. The algorithm initially rewarded drivers that drove faster, but with a slight tweak Uber tries to make the algorithm fairer.
+
+## What can the organization do with 3DM that they couldn’t do before?
+3DM allows Uber to analyse and explore the vast amounts of consumer data that is gathered with every Uber trip. It paves a way for Uber to look at consumer behaviour incredibly accurately and with great detail, because of the massive amount of 'respondents'. The company can make decisions based on what the trends are in the market and how their service is being used almost real-time. As described in Provost & Fawcett (2013), this would not have been possible without technological advancements in the field of Data Engineering and Processing.
+
+# Data Problems vs Data Solutions
+<b> Case Study: Sentient and Amsterdam Police force </b>
+
+Source: https://liacs.leidenuniv.nl/~puttenpwhvander/library/DMCS2009_Workshopproceedings4.pdf
+
+## What was the business problem?
+A part of the efforts of a Police Force is aimed at explaining, understanding, linking and predicting criminal activity. Police forces traditionally focus on small parts of available data for a specific purpose. Without data mining, the amount of data used in analysis is limited by the time that analysts have to go through it, step by step. Many policing problems require the use of as much data as possible, traditional methods fall short and new ways of analysing data to help explain, understand, link and predict criminal activity is necessary. This case study describes the way in which data mining plays a large herein. 
+
+Sentient Information Systems researched what shortcomings traditional crime analysis systems have and what the requirements are for redesigning the systems. As well as how the renewed data mining systems translate into system applications in practice.
+
+
+## How was it translated into a data mining problem?
+The explanation of criminal activity, for example an increase in reported pickpocket activity, typically lies in small details such as a festival taking place, increasing the likelihood of pickpockets. Using more data means that patterns can give more contextual information to help police forces fight criminal activity. In other words, to understand crime data is needed that goes beyond traditional police descriptions such as gender, age, stolen goods, verhicle used etc.
+
+The case study explains that traditional crime analysis systems have 6 major shortcomings:
+<li>Based on selecting variables</li>
+<li>Static results</li>
+<li>Based on simple patterns</li>
+<li>Difficult extraction</li>
+<li>Diverse tool sets</li>
+<li>Tool complexity</li>
+
+Furthermore, the key system elements for redesigning the crime analysis systems are:
+<li>Ready database</li>
+<li>Automated data mining</li>
+<li>User friendly interface</li>
+<li>Interactive analysis</li>
+<li>Traceability</li>
+<li>Data flexibility</li>
+<li>Integration</li>
+<li>Geo-Spatial analysis</li>
+<li>Automated routine work</li>
+<li>Best practice sharing</li>
+
+Most of these key elements depend on the data mining systems to give clean, relevant, accesible, accurate and real-time data. Therefore, the business problem is a data mining issue
+
+## What is the realized business value?
+The implementation of a redesigned crime analysis system results in a large number of users being able to gain insights and predict criminal behaviour. Data mining has made the organisation more intelligent. The business value for police forces, next to a decreased chance of criminal activities taking place, lies in the time that is being saved by avoiding criminal activity taking place through prevention.
+
+Furthermore, Provost & Fawcett (2013) expalins that data, and the capability to extract useful knowledge from data, should be regarded as key strategic assets. Analysis is already at the heart of operational tactical and strategic decision-making of police forces, the overhaul by Sentient Information Systems just assured the quality of those strategic assets.
+
+The following images from the case study present several data visualisations made with the redesigned system. Image 1 visualises temporal hot spots with criminal activity. Image 2 shows the same analysis for Tilburg, where a wave of robberies took place in 2009. Police analysts used the data mining system to visualise the locations and applied associative spatial prediction to determine where and when police actions would be most optimal. Image 3 shows a decision-tree explaining the trend within the 'violent crime' category.
+
+![Image 1: Spatio-temporal clusters with automated profiles](Geo-spacial analysis crime.PNG)
+
+![Image 2: Temporal hot spot analysis of burglaries in Tilburg](Img2.PNG)
+
+![Image 3: Decision-tree explaining a trend](Decision_tree.PNG)
+
+# Data Driven Business
+<b> Case Study: How to Build a Strong Data-Driven Organization</b>
+
+<iframe width="800" height="350" src="https://www.youtube.com/embed/HAPeE_MxpP8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-external='1'></iframe>
+
+## What features define a data driven business?
+
+From the case study, a data driven business has:
+* Established good connectivity between data silos
+* Maintains a high level of data integrity
+* Employs data scientist with skills to explore, merge, transform, cross-correlate and interpret data
+* Uses data not only competitively, but also to predict certain patterns
+* Employs ML engineers to build models and algortihms
+* Employs AI architects to act as a middle man between ML engineers and management, framing questions for management in a way that is understandable for ML engineers
+
+The case study embodies the fundamental concepts for success of a data-driven business: "Acquiring and sustaining competitive advantage via data science; The importance of careful curation of data science capability" (Provost & Fawcett, 2013). Specifically the curation of data science capability is explained well, by indicating that data scientist with varying specialities are needed for certain roles. 
+
+Furthermore, Provost & Fawcett argue that two important factors ensure succesful data-driven decision-making: the firm's management must think data-analytically; the management must create a culture where data science, and data scientist, will thrive.
+
+## What are the important features of a data culture?
+McKinsey (2018) identifies 7 takeaways from talks with CEO's in renowned data culture organisations, several of those highlight important features of data-driven culture:
+
+<ol>
+<li>Data Culture is Decision Culture</li>
+For good data cultures, it is imperative that data anlysis is not approached as an experiment. It is a crucial business unit with a fundamental objective of making better decisions. 
+
+<li> Data Culture, C-Suite imperatives and the Board </li>
+Commitment from high level executives is essential for a productive data culture. Commitment goes beyond the occasional touch-up from high-level management. There should be an ongoing and informed conversation with top decision-makers and those who lead data initiatives throughout the organisation. 
+
+<li>The democratisation of data</li>
+Data culture means a democratisation of available data. Providing employees with the right tooling and data fosters excitement. That is, if deemand for data is stimulated by executive management. Democratisation of data, done right, will grow the company mindset towards a data culture.
+
+<li>Data Culture and Risk</li>
+An effective data culture puts risk at its core, leveraging the value proposition to be balanced at all times. However, companies must establish and effectively communicate the do's and dont's in data culture.
+
+<li>Culture Catalysts</li>
+When there is enough buy-in from executive management to transform the company's culture into a data culture, culture catalysts or change agents are required. People who are at the front-lines need to take up the call from executives. This requires people who can bridge the world of data science and ground operations, to translate the vision into practical steps. Often times, the most effective change agents aren't digitally native.
+</ol>
+
+# Sources
+
+Provost & Fawcett (2013): Data Science for Business: What you need to know about data mining and data-analytic thinking, Foster Provost & Tom Fawcett, ISBN: 978-1-449-36132-7
+
+McKinsey (2018): https://www.mckinsey.com/~/media/McKinsey/Business%20Functions/McKinsey%20Analytics/Our%20Insights/Why%20data%20culture%20matters/Why-data-culture-matters.ashx, Why data clture matters
